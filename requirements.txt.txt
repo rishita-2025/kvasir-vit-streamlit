@@ -1,8 +1,0 @@
-reqs = """streamlit
-torch
-torchvision
-pillow
-numpy
-"""
-with open(f"{DEPLOY_DIR}/requirements.txt", "w") as f:
-    f.write(reqs)
