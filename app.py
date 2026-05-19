@@ -80,5 +80,3 @@ if uploaded is not None:
 else:
     st.info("Upload a JPG or PNG image to start prediction.")
 """
-with open(f"{DEPLOY_DIR}/app.py", "w") as f:
-    f.write(app_code)
