@@ -1,4 +1,3 @@
-app_code = """
 import os
 import torch
 import torch.nn as nn
@@ -79,4 +78,3 @@ if uploaded is not None:
             st.write(f"- {cls}: {p:.2%}")
 else:
     st.info("Upload a JPG or PNG image to start prediction.")
-"""
